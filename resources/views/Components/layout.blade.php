@@ -52,8 +52,7 @@
             <div class="hidden md:block"> 
                 <div class="flex items-center space-x-8 lg:space-x-10"> 
                     <x-nav-link href="/" :active="request()->is('/')" class="nav-item text-gray-500 hover:text-gray-800 active:text-gray-800">Home</x-nav-link> 
-                    <x-nav-link href="/about" :active="request()->is('about')" class="nav-item text-gray-500 hover:text-gray-800 active:text-gray-800">About</x-nav-link> 
-                    <x-nav-link href="/contact" :active="request()->is('contact')" class="nav-item text-gray-500 hover:text-gray-800 active:text-gray-800">Contact</x-nav-link> 
+                    <x-nav-link href="/jobs" :active="request()->is('jobs')" class="nav-item text-gray-500 hover:text-gray-800 active:text-gray-800">Jobs</x-nav-link> 
                 </div> 
             </div>
         </div>

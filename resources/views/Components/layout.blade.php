@@ -20,7 +20,7 @@
         }
         .nav-item {
             position: relative;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; /* ambot lang gyud ani intawn */
             font-weight: 500;
         }
         .nav-item::after {
